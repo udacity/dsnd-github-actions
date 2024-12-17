@@ -12,4 +12,4 @@ if __name__ == "__main__":
         version="0.0.0",
         packages=find_packages(),
         install_requires=reqs,
-    )
+        )

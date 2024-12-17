@@ -8,8 +8,8 @@ if __name__ == "__main__":
     reqs = req_path.read_text().split('\n')
 
     setup(
-        name="package_name".
-        version="0.0.0".
+        name="package_name",
+        version="0.0.0",
         packages=find_packages(),
         install_requires=reqs,
     )

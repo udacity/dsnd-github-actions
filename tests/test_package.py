@@ -1,4 +1,2 @@
-import pytest
-
 def test_package_import():
-    import package
+    import package_name

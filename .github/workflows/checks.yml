@@ -31,7 +31,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Build and install package
       run: |
-        python setup.py sdist && pip install dist/
+        pip install .
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names

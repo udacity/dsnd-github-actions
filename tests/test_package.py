@@ -3,6 +3,6 @@ def test_package_import():
 
 
 def test_function_that_will_break():
-    from package_name import function_that_will_break
+    from package_name import function_that_will_not_break
 
-    function_that_will_break()
+    function_that_will_not_break()
